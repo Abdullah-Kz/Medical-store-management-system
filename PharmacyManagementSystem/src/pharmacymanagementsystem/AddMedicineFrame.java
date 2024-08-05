@@ -19,7 +19,7 @@ public class AddMedicineFrame extends JFrame {
 
         setTitle("Abdullah Pharmacy");
         setSize(600, 300);
-        setResizable(false);
+        // setResizable(false);
         ImageIcon image = new ImageIcon("download.png");
         setIconImage(image.getImage());
         setLocationRelativeTo(null);

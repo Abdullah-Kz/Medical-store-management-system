@@ -19,7 +19,7 @@ public class AdminDashboard extends JFrame {
     public AdminDashboard(Admin admin) {
 
         setTitle("Abdullah Pharmacy");
-        setSize(800, 800);
+        setSize(800, 700);
         setResizable(false);
         ImageIcon image = new ImageIcon("download.png");
         setIconImage(image.getImage()); 

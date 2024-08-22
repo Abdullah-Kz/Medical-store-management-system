@@ -20,7 +20,7 @@ public class UserDashboard extends JFrame {
     public UserDashboard(User user, Admin admin) {
 
         setTitle("Abdullah Pharmacy");
-        setSize(800, 800);
+        setSize(800, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       setResizable(false);
         ImageIcon image = new ImageIcon("download.png");

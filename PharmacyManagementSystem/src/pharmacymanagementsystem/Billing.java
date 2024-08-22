@@ -35,9 +35,9 @@ public class Billing implements Serializable {
         System.out.println("User: " + user.getUsername());
         System.out.println("Medicines Purchased:");
         for (Medicine medicine : purchasedMedicines) {
-            System.out.println(medicine.getName() + " - " + medicine.getQuantity() + " units - $" + medicine.getPrice() + " each");
+            System.out.println(medicine.getName() + " - " + medicine.getQuantity() + " units - " + medicine.getPrice() + " Rps each");
         }
-        System.out.println("Total Amount: $" + totalAmount);
+        System.out.println("Total Amount: " + totalAmount + " Rupees");
     }
 
     public double getTotalAmount() {
